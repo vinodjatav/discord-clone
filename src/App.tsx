@@ -1,7 +1,12 @@
 import "./App.css";
+import ResponsiveAppBar from "./components/ResponsiveAppBar";
 
 function App() {
-  return <div className="App">Hello, Discord Clone App!</div>;
+  return (
+    <div className="App">
+      <ResponsiveAppBar />
+    </div>
+  );
 }
 
 export default App;
